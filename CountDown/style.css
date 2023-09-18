@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh; /*1.I did not used vh initially , i used % and the image was not appearing*/
+    background: url("Building.webp") center center;
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0,0, 0.7);/*0.7 describes the opacity i.e. the dark shadow in the image*/
+}
+
+.title{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.col{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 50px auto; /*the 20 px is the vertical and auto is horizontal */
+}
+
+input{
+    width:50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+}
+
